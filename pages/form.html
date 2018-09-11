@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form</title>
+	</head>
+
+	<body style="max-width: 1024px; margin-left:auto; margin-right:auto;">
+		<h2>form</h2>
+
+		<form style="line-height: 200%;">
+			<fieldset>
+				<legend><b>Notandi:</b></legend>
+				Notandanafn: 
+				<input type="text" name="username" required><br>
+				Netfang:
+				<input type="text" name="email" required><br>
+				Lykilorð:
+				<input type="password" name="password" required><br>
+				Lykilorð endurtekið:
+				<input type="password" name="passwordrep" required><br>
+			</fieldset>
+
+			<fieldset>
+				<legend><b>Spurningar:</b></legend>
+				Kyn:
+				Karl<input type="radio" name="kyn", value="male">
+				Kona<input type="radio" name="kyn", value="female">
+				Annað<input type="radio" name="kyn", value="other"><br>
+				
+				Aldur:
+				<select>
+					<option value="<13">Yngri en 13 ára</option>
+					<option value="13-20">13-20 ára</option>
+					<option value="21-65">21-65 ára</option>
+					<option value=">65">Eldri en 65 ára</option>
+				</select><br>
+
+				Senda afrit af notandaupplýsingum á netfang<input type="checkbox" name="sex-other" checked><br>
+				Athugasemd:<br>
+				<textarea rows="6", cols="30"></textarea>
+			</fieldset>
+
+			<br>
+
+			<input type="submit" value="submit">
+		</form>
+
+		<hr>
+
+		<div>
+			<ul>
+				<li><a href="../index.html">forsíða</a></li>
+				<b>
+					<li><a href="#">form</a></li>
+				</b>
+				<li><a href="table.html">tafla</a></li>
+				<li><a href="text.html">texti</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
